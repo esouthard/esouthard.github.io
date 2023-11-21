@@ -2,8 +2,8 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
-   Date:     
+   Author:   Eli 
+   Date:     11/12
    
   
 
@@ -46,6 +46,8 @@ nav {
     text-align: center;
 }
 
+
+
 nav ul {
     font-weight: bold;
     list-style: none;
@@ -81,6 +83,7 @@ nav ul li a:hover {
 figure{
     padding-top: 10px;
     text-align: center;
+
 }
 
 figcaption {
@@ -110,7 +113,26 @@ h3 {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
-
+h4 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+img.map {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+img.indoor {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+img.outdoor {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 footer {
     width: 910px;
     margin: 0;

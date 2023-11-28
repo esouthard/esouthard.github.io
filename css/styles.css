@@ -46,7 +46,19 @@ nav {
     text-align: center;
 }
 
+table.pricing {
+	background: white;
+	border: 10px outset;
+	font-size: 0.75em;
+	width: 100%;
+}
 
+table.childpricing {
+	background: white;
+	border: 10px outset;
+	font-size: 0.75em;
+	width:100%;
+}
 
 nav ul {
     font-weight: bold;

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Eli Southard
+		Date: 12/04/23
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Southard's Mini Golf</title>
+   <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+ <a href="index.html"><img src="images/golfballsillyface.png" alt="Golf ball silly face" class="golfballsilly"/></a>
+<a href="index.html"><img src="images/southardslogo.png" alt="Southard's Mini Golf Logo"/></a>
+ <a href="index.html"><img src="images/golfballsillyface.png" alt="Golf ball silly face" class="golfballsilly"/></a>
+
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "location.html">Location</a></li>
+	  <li><a href = "pricing.html">Pricing</a></li>
+	  <li><a href = "reviews.html">Reviews</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h2>Reviews</h2>
+	<p> Please leave us a review. We want to hear from you! Your experience matters to us. We will use this feedback to make everyone's experiences better!
+	</p>
+	
+	<p>Required values are marked by an asterisk (*)</p>
+
+<fieldset id="custInfo">
+			<legend>Customer Information</legend>
+			
+		<div class="formRow">
+			<label for="name"> Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name" />
+		</div>
+			
+		<div class="formRow">
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" 
+		</div>	
+			
+		<div class="formRow">
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" />
+		</div>	
+	
+			
+		<div class="formRow">
+			<label for="phone">Phone number*</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+		</div>
+			
+		<div class="formRow">
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>
+		<div class="formRow">
+			<label for="info">Where did you hear about us?<br /> (select all that apply)</label>
+			<select name="inforSrc" id="info" size="5" multiple>
+				<option value="internet">Internet</option>
+				<option value="mag">Magazine</option>
+				<option value="news">Newpaper</option>
+				<option value="word">Word of Mouth</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		<div class="formRow"> 
+			<label for="visit">Date of Visit*</label>
+			<input name="visitDate" id="visit" type="date" />
+		</div>
+		</fieldset>
+		<fieldset id="expInfo">
+			<legend>Share Your Experience at Southard's Mini Golf</legend>
+	
+		<label for="commBox"> Tell us about your day!*</label>
+		<textarea name="custExp" id="commBox"> </textarea>
+		</fieldset>
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Course Hours</h3>
+
+	<p>Monday: 10 a.m. - 9 p.m.</p>
+	<p>Tuesday: 10 a.m. - 9 p.m.</p>
+	<p>Wednesday: 10 a.m. - 9 p.m.</p>
+	<p>Thursday: 10 a.m. - 9 p.m.</p>
+	<p>Friday: 10 a.m. - 9 p.m.</p>
+	<p>Saturday: 10 a.m. - 9 p.m.</p>
+	<p>Sunday: 10 a.m. - 9 p.m.</p>
+
+<figure>
+  <img src = "images/colorfulgolfballs.jpg" alt = "Coloful Golf balls"  />
+
+  <figcaption>
+    Many Colors to choose from<br />
+  </figcaption> 
+</figure>
+
+</aside>   
+
+<footer> 
+
+	<p>Southard's Mini Golf<br />
+	123 Platte Road &bull; Lincoln, NE 12345<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> |<a href = "tel:+12334449989">(233) 444-9989</a> | <a href = "mailto:minigolf@southards.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
